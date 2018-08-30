@@ -34,6 +34,7 @@ public class UserController {
     @RequestMapping(value = "/insert/{name}" ,method = RequestMethod.PUT)
     public boolean insert(@PathVariable("name") String name){
 
+        System.out.println(name);
         return userServiceImp.insert(name);
     }
 
