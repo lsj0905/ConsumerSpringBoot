@@ -22,7 +22,7 @@ public class UploadController {
 
         if(!file.isEmpty()){
             try {
-                File rootDirectory=new File("D:\\xystorage\\");
+                File rootDirectory=new File("D:\\xystofrage\\");
                 if (!rootDirectory.exists()){
                     rootDirectory.mkdirs();
                 }
